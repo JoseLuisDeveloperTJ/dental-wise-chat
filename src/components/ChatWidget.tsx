@@ -114,9 +114,7 @@ const ChatWidget = () => {
                         : "bg-secondary text-secondary-foreground"
                     }`}
                   >
-                    <ReactMarkdown className="prose prose-sm max-w-none [&>p]:m-0">
-                      {msg.content}
-                    </ReactMarkdown>
+                    {msg.content}
                   </div>
                 </div>
               ))}
