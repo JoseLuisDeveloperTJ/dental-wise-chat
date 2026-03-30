@@ -3,7 +3,7 @@ import { MessageCircle, X, Send, Loader2 } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { supabase } from "@/integrations/supabase/client";
-import ReactMarkdown from "react-markdown";
+
 import {
   ChatMessage,
   getUserId,
